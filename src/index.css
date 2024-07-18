@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.z-index-class{
+  z-index: 1000;
+}
+
+.custom-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.top-shadow {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/*@keyframes slide {
+    0%, 100% { transform: translateX(0); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+}
+
+@media (max-width: 768px) {
+    .slide-image {
+        animation: slide 6s infinite;
+    }
+}*/
